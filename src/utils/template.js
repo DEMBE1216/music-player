@@ -65,9 +65,9 @@ const navTemplate = () => {
 const navBtnTemplate = type => `<i class='fas fa-${type}'></i>`;
 const srcTemplate = (srcType, song) => {
   if (srcType === 'cover') {
-    return `https://yeonghunko.github.io/music-player/src/assets/images/${song}.jpg`;
+    return `https://dembe1216.github.io/music-player/src/assets/images/${song}.jpg`;
   } else {
-    return `https://yeonghunko.github.io/music-player/src/assets/music/${song}.mp3`;
+    return `https://dembe1216.github.io/music-player/src/assets/music/${song}.mp3`;
   }
 };
 
