@@ -53,7 +53,7 @@ body {
   height: 110px;
   width: inherit;
   bottom: 0;
-  left: 0;
+  left: -10px;
   animation: rotate 3s linear infinite;
   animation-play-state: paused;
 }
