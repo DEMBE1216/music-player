@@ -19,9 +19,9 @@ body {
 }
 
 .music-container {
-  background-color: #fff;
+  background-color: #9F6B53;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(159, 107, 83, 1);
+/*   box-shadow: 0 20px 20px 0 rgba(203, 145, 46, 0.43); */
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -80,9 +80,9 @@ body {
 }
 
 .action-btn {
-  background-color: #fff;
+  background-color: #9F6B53;
   border: 0;
-  color: #dfdbdf;
+  color: #fff;
   font-size: 20px;
   cursor: pointer;
   padding: 10px;
