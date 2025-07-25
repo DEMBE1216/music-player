@@ -20,9 +20,9 @@ body {
 }
 
 .music-container {
-  background-color: #222222;
+  background-color: #9F6B53;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(203, 145, 46, 0.43);
+/*   box-shadow: 0 20px 20px 0 rgba(203, 145, 46, 0.43); */
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -131,7 +131,7 @@ body {
 }
 
 .progress-container {
-  background: #cb912e;
+  background: #fff;
   border-radius: 5px;
   cursor: pointer;
   margin: 5px 0;
@@ -142,7 +142,7 @@ body {
 /* 부모width에서 %를 말하는 것 */
 /* progress바가 채워지는 변화를 transition으로 설정 */
 .progress {
-  background-color: #9F6B53;
+  background-color: #cb912e;
   border-radius: 5px;
   height: 100%;
   width: 0%;
