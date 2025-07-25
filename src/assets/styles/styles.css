@@ -30,6 +30,7 @@ body {
   z-index: 10;
 }
 
+
 .img-container {
   position: relative;
   width: 110px;
@@ -41,10 +42,17 @@ body {
   background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  left: 50%;
+  left: 40%;
   width: 20px;
   height: 20px;
   transform: translate3d(-50%, -50%, 0);
+}
+@media (max-width: 433px) {
+    .img-container::after {
+        left: 10px;      /* 고정 위치 */
+        top: 10px;       /* 필요시 설정 */
+        transform: none; /* 이동 효과 제거 */
+    }
 }
 
 .img-container img {
