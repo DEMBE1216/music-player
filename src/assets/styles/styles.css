@@ -101,7 +101,7 @@ body {
 
 /* calc, translate3d */
 .music-info {
-  background-color: rgba(34, 34, 34, 1);
+  background-color: rgba(34, 34, 34, 0.95);
   border-radius: 15px 15px 0 0;
   position: absolute;
   top: 0;
