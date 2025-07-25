@@ -106,7 +106,7 @@ body {
   top: 0;
   left: 20px;
   width: calc(100% - 40px);
-  padding: 10px 10px 10px 150px;
+  padding: 10px 10px 10px 120px;
   opacity: 0;
   transform: translate3d(0, 0%, 0);
   transition: transform 0.3s ease-in, opacity 0.3s ease-in;
