@@ -49,8 +49,8 @@ body {
 }
 @media (max-width: 433px) {
     .img-container::after {
-        left: 10px;      /* 고정 위치 */
-        top: 10px;       /* 필요시 설정 */
+        left: 35px;      /* 고정 위치 */
+        top: -10px;       /* 필요시 설정 */
         transform: none; /* 이동 효과 제거 */
     }
 }
@@ -97,6 +97,12 @@ body {
   padding: 10px;
   margin: 0 20px;
 }
+@media (max-width: 425px) {
+    .action-btn {
+    margin: 0 5px;
+    }
+}
+
 
 .action-btn.action-btn-big {
   color: #fff;
