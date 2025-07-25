@@ -15,7 +15,7 @@ const nextBtn = document.getElementById('next');
 const audio = document.getElementById('audio');
 const audioTime = document.getElementById('audio-time');
 
-const songs = ['4：00 A.M.', 'Tokyo cafe', 'When I fall in love'];
+const songs = ['4 A.M.', 'Tokyo cafe', 'When I fall in love'];
 
 let songIndex = 0;
 let timeId;
