@@ -20,7 +20,8 @@ body {
 }
 
 .music-container {
-  background-color: #9F6B53;
+  background-color: #000000;
+  border: 1px solid #dfab01;
   border-radius: 15px;
 /*   box-shadow: 0 20px 20px 0 rgba(203, 145, 46, 0.43); */
   display: flex;
@@ -141,7 +142,7 @@ body {
 
 .music-info h4 {
   margin: 0;
-  color: #cb912e;
+  color: #dfab01;
 }
 
 .progress-container {
